@@ -1,0 +1,83 @@
+include mixins/functions
+
+doctype
+html(lang="es")
+    head
+        include includes/head.pug
+
+
+    body#page-home.theme-light
+
+        header#CursoPresentacion.curso-presentacion.page-header
+
+            .container
+
+                include includes/page-home_topbar.pug
+
+                include includes/page-home_header.pug                
+
+        section#Justificacion.curso-resultados.section.bg-base-light
+
+            .container
+
+                h1  Justificación <br> del programa
+                .brand-line-primary
+                    
+                p.mt-5 El Diseño Curricular en el SENA, es un procedimiento mediante el cual se estructuran programas de Formación Profesionall, bajo el modelo de Competencias Laborales, que procura asegurar la pertinencia y calidad de la oferta formativa y proporcionar criterios para la ejecución de la misma en los Centros de Formación a nivel país.
+
+                p Este procedimiento, requiere de una orientación metodológica y un grupo de personas técnicas que construyan de manera conjunta la estructura general del programa, el cual precisa características y proyecciones del contexto laboral y ocupacional, perfiles de salida y de ingreso del aprendiz, competencias del programa, y tipo de certificación entre otros requerimientos.
+
+                p En el SENA, la Dirección de Formación Profesional, es responsable de la elaboración de los programas de formación bajo los estándares de calidad establecidos en el procedimiento de diseño curricular; para lo cual, este programa de formación complementaria Aplicación de metodología SENA para diseño curricular, tiene como objetivo orientar a los equipos de diseño curricular, conformados a través de la estrategia de Redes de Conocimiento, la estandarización de las actividades definidas en el procedimiento y la guía de diseño curricular, que den respuesta  a las necesidades del sector productivo y social del país y que se ofertarán  en los diferentes centros de formación, los cuales deben estar en estado de ejecución en el aplicativo Sofiaplus.      
+
+
+        section#Poblacion.curso-indice-tematico.section
+
+            .container
+
+                h1 Población <br>objetivo
+                .brand-line-primary
+
+                p El programa complementario Apliación de metodología SENA para diseño curricular está dirigido a Instructores Sena, Coordinadores académicos, Funcionarios Sena con cargo de Profesional y funciones de diseño curricular, interesados en desarrollar las competencias requeridas para abordar el diseño curricular tanto de programas complementarios como técnicos. 
+
+
+        section#Estrategia.curso-resultados.section.bg-base-light
+
+            .container
+
+                h1 Estrategia <br>metodológica
+                .brand-line-primary
+
+                p Centrada en la construcción de autonomía para garantizar la calidad de los procesos formativos en el marco de la formación por competencias, el aprendizaje por proyectos y el  uso de  técnicas didácticas activas que estimulan el pensamiento para la resolución de problemas simulados y reales; soportadas en la utilización de las tecnologías de la información y la comunicación, integradas, en ambientes abiertos y pluritecnológicos, que en todo caso recrean el contexto productivo y vinculan al aprendiz con la realidad cotidiana y el desarrollo de las competencias.
+
+                p Igualmente, debe estimular de manera  permanente la autocrítica y la reflexión del aprendiz sobre el que hacer y los resultados de aprendizaje que logra a través de la  vinculación  activa  de las cuatro fuentes de información para la construcción de conocimiento: 
+
+                .row.mt-4
+                    article.col-md-6.col-lg-3.my-2
+                        .box.bg-gray-200.d-flex.flex-column.justify-content-center.align-items-center.p-4.rounded-lg
+                            img.img-fluid(src='assets/images/estrategia/tutor.svg', style='width: 100px; height: 100px;')
+                            h3.my-3 El tutor - instrutor
+                    article.col-md-6.col-lg-3.my-2
+                        .box.bg-gray-200.d-flex.flex-column.justify-content-center.align-items-center.p-4.rounded-lg
+                            img.img-fluid(src='assets/images/estrategia/entorno.svg', style='width: 100px; height: 100px;')
+                            h3.my-3 Entorno
+                    article.col-md-6.col-lg-3.my-2
+                        .box.bg-gray-200.d-flex.flex-column.justify-content-center.align-items-center.p-4.rounded-lg
+                            img.img-fluid(src='assets/images/estrategia/tic.svg', style='width: 100px; height: 100px;')
+                            h3.my-3 TIC
+                    article.col-md-6.col-lg-3.my-2
+                        .box.bg-gray-200.d-flex.flex-column.justify-content-center.align-items-center.p-4.rounded-lg(style='height: 100%;')
+                            img.img-fluid(src='assets/images/estrategia/colaborativo.svg', style='width: 100px; height: 100px;')
+                            h3.my-3 Trabajo colaborativo
+
+
+        +creditosFooter("assets/images/logos/senaLogo.svg")
+
+
+        script(src="assets/js/vendor.js")
+        script(src="assets/js/global.js")        
+        script(src="assets/js/pages.js")
+
+
+
+
+
