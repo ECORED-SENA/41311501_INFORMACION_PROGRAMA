@@ -66,8 +66,21 @@ mixin creditosFooter(ruta)
             .brand-line-primary
 
             .row
-                .col-12.col-md-5
-                    h3.footer-subtitulo Contenido Instruccional
+                .col-12.col-sm-6.col-md-4
+                    h3.footer-subtitulo ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES                
+            .row
+                .col-12.col-md-3
+                    p.footer-texto.mb-2
+                        | #[strong Ingry Dayanna Bonilla Monzon]<br/>   
+                        span.text-small Lider del equipo
+
+                    p.footer-texto
+                        span.text-small.text-uppercase Dirección General
+
+                .col-12.col-sm-6.col-md-3
+                    h4.footer-subtitulo-2.mt-0 
+                        .fa.fa-caret-right.mr-2
+                        | Contenido Instruccional
 
                     p.footer-texto.mb-2
                         | #[strong Gloria Matilde Lee Mejia	 ]<br/>   
@@ -90,11 +103,7 @@ mixin creditosFooter(ruta)
 
                     p.footer-texto.mb-2
                         | #[strong Nancy Cifuentes Ospina]<br/>   
-                        span.text-small Experta temática – Dinamizadora de Gestión curricular<br/>
-                        | #[strong Ruth Mireya Suarez Porras]<br/>
-                        span.text-small Experta temática<br/>
-                        | #[strong Diana Zapata]<br/>                                              
-                        span.text-small Experta temática<br/>
+                        span.text-small Experta temática – Dinamizadora de gestión curricular<br/>
 
                     p.footer-texto
                         span.text-small.text-uppercase Dirección general
@@ -111,9 +120,10 @@ mixin creditosFooter(ruta)
                         br
                         span.text-small Regional Distrito Capital
 
-                       
-                .col-12.col-md-5
-                    h3.footer-subtitulo Diseño y desarrollo de recursos educativos digitales
+                .col-12.col-sm-6.col-md-3
+                    h4.footer-subtitulo-2.mt-0
+                        .fa.fa-caret-right.mr-2
+                        | Diseño y desarrollo de recursos educativos digitales
                     
                     p.footer-texto
                         | #[strong Francisco José Lizcano Reyes ]<br/>   
@@ -132,11 +142,14 @@ mixin creditosFooter(ruta)
                         span.text-small Desarrollo Front-End<br/>
 
                     p.footer-texto
-                        span.text-small.text-uppercase CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA   
+                        span.text-small.text-uppercase Centro Industrial del Diseño y la Manufactura   
                         br
-                        span.text-small Regional Santander                   
+                        span.text-small Regional Santander  
 
-                    h3.footer-subtitulo.mt-5 Gestores de repositorio
+                .col-12.col-sm-6.col-md-3
+                    h3.footer-subtitulo-2.mt-sm-5.mt-md-0
+                        .fa.fa-caret-right.mr-2
+                        | Gestores de repositorio
                     
                     p.footer-texto
                         | #[strong Kely Alejandra Quiros Duarte ]<br/>   
@@ -145,11 +158,53 @@ mixin creditosFooter(ruta)
                     p.footer-texto
                         span.text-small.text-uppercase Centro de comercio y servicios  
                         br
-                        span.text-small Regional Tolima
+                        span.text-small Regional Tolima    
 
-                .col-12.col-md-2  
-                    .d-flex.flex-column.justify-content-center
-                        img(src= ruta)
+            hr.my-5 
+
+            .row
+                .col-12.col-sm-6.col-md-4
+                    h3.footer-subtitulo DISEÑO CURRICULAR
+
+
+            .row
+                .col-12.col-sm-6.col-md-3
+
+                    p.footer-texto.mb-2
+                        | #[strong Alcira Consuelo Gomez Ramirez]<br/>   
+                        span.text-small Responsable Equipo
+
+                
+                    p.footer-texto
+                        span.text-small.text-uppercase Centro de formación en actividad física y cultura regional
+                        br
+                        span.text-small Distrito Capital
+
+                .col-12.col-sm-6.col-md-3
+                    p.footer-texto.mb-2
+                        | #[strong Surani Silva]<br/>   
+                        span.text-small Experta técnica
+
+                    p.footer-texto
+                        span.text-small.text-uppercase Centro de Industria y Servicios
+                        br
+                        span.text-small Regional Meta
+
+                .col-12.col-sm-6.col-md-3
+                    p.footer-texto.mb-2
+                        | #[strong Belkis Rosmild Molano]<br/>   
+                        span.text-small Verificación metodológica
+
+                    p.footer-texto
+                        span.text-small.text-uppercase Centro de tecnología de la manufactura avanzada  
+                        br
+                        span.text-small Regional Antioquia
+
+
+
+            .row.justify-content-center.my-5.pt-5
+                .col-12.col-md-1
+                        img(style="max-width:100px;",src= ruta).img-fluid
 
     section#cc
         .container
